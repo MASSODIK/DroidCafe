@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="90dp"
+        android:src="@drawable/logo" />
+
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="60.64dp"
+        android:layout_height="29.67dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="57.16dp"
+        android:layout_marginTop="5dp"
+        android:gravity="top"
+        android:text="@string/store"
+        android:textAppearance="@style/store" />
+
+    <Spinner
+        android:id="@+id/planets_spinner"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="top"
+        android:textSize="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBaseline_toBaselineOf="@+id/planets_spinner"
+        app:layout_constraintStart_toEndOf="@+id/planets_spinner" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:gravity="top"
+        android:hint="@string/enter_address_hint"
+        app:layout_constraintTop_toBottomOf="@+id/enter_address_hint"/>
+
+    <TextView
+        android:id="@+id/your_name"
+        android:layout_width="189dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="57dp"
+        android:layout_marginTop="15dp"
+        android:gravity="top"
+        android:text="@string/your_name"
+        android:textAppearance="@style/your_name" />
+
+    <EditText
+        android:id="@+id/rectangle_4"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/rectangle_4"
+        android:elevation="4dp"
+        android:hint="@string/Please_fill_hint" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="@color/red"
+        android:elevation="4dp"
+        android:text="Submit"
+        android:theme="@style/submit" />
+
+
+</LinearLayout>
+
+

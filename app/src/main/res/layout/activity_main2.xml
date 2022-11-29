@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <View
+        android:id="@+id/person_male"
+        android:layout_width="38dp"
+        android:layout_height="38dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="20dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/icon"
+        />
+
+    <TextView
+        android:id="@+id/hello_asep"
+        android:layout_width="103dp"
+        android:layout_height="23dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="66dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:text="@string/hello_asep"
+        android:textAppearance="@style/hello_asep"
+        android:gravity="top"
+        />
+
+    <View
+        android:id="@+id/main_1"
+        android:layout_width="411dp"
+        android:layout_height="250dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="45dp"
+        android:background="@drawable/cihampelas"
+        />
+
+    <TextView
+        android:id="@+id/store"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="312dp"
+        android:text="@string/store"
+        android:textAppearance="@style/store"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/cihampelas"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="250dp"
+        android:layout_marginTop="315dp"
+        android:gravity="top"
+        android:text="@string/cihampelas"
+        android:textAppearance="@style/cihampelas" />
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="88dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="358dp"
+        android:text="@string/location"
+        android:textAppearance="@style/location"
+        android:gravity="top"
+        />
+
+    <TextView
+        android:id="@+id/find_on_map"
+        android:layout_width="109dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="250dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        android:text="@string/find_on_map"
+        android:textAppearance="@style/find_on_map"
+        android:gravity="top"
+        />
+
+    <Button
+        android:id="@+id/rectangle_5"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:text="@string/see_menus"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="411dp"
+        android:backgroundTint="@color/red"
+        android:elevation="4dp"
+        android:textColor="@color/white"
+        android:theme="@style/submit" />
+
+
+
+
+</RelativeLayout>

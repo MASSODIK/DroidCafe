@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".order">
+
+    <TextView
+        android:id="@+id/order_detai"
+        android:layout_width="181dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/order_detai"
+        android:textAppearance="@style/order_detai"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="10dp" />
+
+    <TextView
+        android:id="@+id/asep_store_"
+        android:layout_width="250dp"
+        android:layout_height="74dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/asep_store_"
+        android:textAppearance="@style/asep_store_"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="53dp" />
+
+    <TextView
+        android:id="@+id/pengiriman"
+        android:layout_width="181dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="top"
+        android:text="@string/pengiriman"
+        android:textAppearance="@style/pengiriman"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="141dp" />
+
+    <CheckBox
+        android:id="@+id/sendiri"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="186dp"
+        android:text="Ambil Sendiri"
+        />
+
+
+    <CheckBox
+        android:id="@+id/fast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fast Delivery (minimal 30 menit sampai)"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="234dp" />
+
+    <Button
+        android:id="@+id/rectangle_5"
+        android:layout_width="365dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:backgroundTint="@color/red"
+        android:elevation="4dp"
+        android:text="@string/done"
+        android:textColor="@color/white"
+        android:theme="@style/submit"
+        tools:layout_editor_absoluteX="23dp"
+        tools:layout_editor_absoluteY="302dp" />
+
+    <TextView
+        android:id="@+id/komen"
+        android:layout_width="336dp"
+        android:layout_height="118dp"
+        android:background="@color/grey"
+        android:gravity="top"
+        android:text="@string/komen"
+        android:textAppearance="@style/komen"
+        android:textColor="@color/black"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="399dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

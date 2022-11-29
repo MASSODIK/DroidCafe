@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">PizZa Hat</string>
+
+    <string name="store">Store</string>
+
+    <string name="choose_your_city">City</string>
+    <string-array name="planets_array">
+        <item>Semarang</item>
+        <item>Bandung</item>
+        <item>Jakarta</item>
+        <item>Tasikmalaya</item>
+        <item>Surabaya</item>
+        <item>Padang</item>
+        <item>Yogyakarta</item>
+        <item>Bekasi</item>
+    </string-array>
+
+    <string name="enter_address_hint">Isi Cabang Resto</string>
+    <string name="your_name">Your Name</string>
+    <string name="Please_fill_hint">Please fill your name</string>
+    <string name="submit">Submit</string>
+    <string name="hello_asep">Hello, Ribhiansyah</string>
+    <string name="cihampelas">Cihampelas</string>
+    <string name="location">Location</string>
+    <string name="find_on_map">Find on Maps</string>
+    <string name="see_menus">See Menus</string>
+
+    <string name="pepperoni_p">Pepperoni Pizza\nCocok bagi anda yang ingin merasakan pizza original dengan taburan keju dan daging asap yang lezat</string>
+    <string name="spaghetti_c">Spaghetti\nCocok bagi anda yang ingin merasakan spaghetti original dengan bumbu yang oriental</string>
+    <string name="burger_coco">Burger\nCocok bagi anda yang ingin merasakan kelembutan burger berlapiskan keju, sayuran dan daging yang tebal</string>
+    <string name="steak_cocok">Steak\nCocok bagi anda yang ingin merasakan lezatnya daging steak dipadukan dengan kentang yang lezat</string>
+
+    <string name="pizzapepperoni_p">Pepperoni Pizza</string>
+
+    <string name="price_rp_66">Price: Rp 99.999,00</string>
+
+    <string name="pepperoni">Pepperoni pizza adalah pizza yang memiliki  topping daging pepperoni sapi asli. Di Italia, pepperoni disebut salame piccante (salami panas). Biasa menjadi bahan baku pizza di Amerika Serikat, yang sering mewakili 30% pelengkap.
+    </string>
+
+    <string name="order_now">Order Now</string>
+
+    <string name="back">Back</string>
+
+    <string name="order_detai">Order Detail</string>
+
+    <string name="asep_store_">Ribhiansyah\nStore: Cihampelas\nPizza Paperoni sudah dipesan\n</string>
+
+    <string name="pengiriman">Pengiriman</string>
+
+    <string name="done">DONE</string>
+
+    <string name="komen">Terima kasih Kak Ribhiansyah sudah memesan ditoko kami, pesanan Pepperoni Pizza anda dikirim menggunakan Fast Delivery </string>
+
+
+
+</resources>
